@@ -10,7 +10,7 @@ The model has been trained with over 1500+ Bleeding & Non - Bleeding photos, wit
 
 **Dataset :** **`Auto-WCBleedGen Challenge Data Sets`**
 
-## OBJECTIVE-
+## OBJECTIVE
 The objective of Auto-WCEBleedGen-Challenge is to provide the opportunity for the development, testing, and evaluation of Artificial Intelligence (AI) models to detect and classify the Bleeding and Non-Bleeding frames extracted from Wireless Capsule Endoscopy (WCE) videos and further detect the bleeding region in that frame.
 
 ## Okay Cool, How did we build it?
@@ -46,7 +46,7 @@ Training Process:
   - Training is performed on the extracted features using a supervised learning approach.
   - Backpropagation and gradient descent are used to optimize the model parameters and minimize the classification loss
 
-## Results - 
+## Results
 ![results.png](detect/train/results.png)
 ![val_batch0_pred.jpg](detect/train/val_batch0_pred.jpg)
 ![val_batch1_pred.jpg](detect/train/val_batch1_pred.jpg)
