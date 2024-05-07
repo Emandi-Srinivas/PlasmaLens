@@ -4,7 +4,7 @@
                  
 The model has been trained over 1500+ Bleeding & Non - Bleeding photos, with over various categories like Fresh Blood, Hematin Blood etc from Kvasir & Gastrolab Datasets.
 
-**Accuracy :** **`85%.67(8618823/10060800)`**
+**Accuracy :** **`85.67%(8618823/10060800)`**
 
 **Model :** **`PLASMA LENS`**
 
