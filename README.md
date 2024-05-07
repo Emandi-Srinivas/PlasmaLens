@@ -1,4 +1,4 @@
-# PLASMA LENS 🩸🅰️🅱️🆎🅾️
+# PLASMA LENS 🩸🅰️🅱️🅾️
 
 **Plasma Lens** is a **Deep Learning Model** that detects and highlights the instances of bleeding in the Gastrointestinal Tract.
                  
@@ -15,7 +15,7 @@ The objective of Auto-WCEBleedGen-Challenge is to provide opportunity for the de
 
 ## Okay Cool, How did we build it?
 
-#### Imported dataset from **[Auto-WCBleedGen Challenge Data Sets1](https://zenodo.org/records/10642779)**  **[Auto-WCBleedGen Challenge Data Sets2](https://zenodo.org/records/10156571)** Module.
+#### Imported dataset from **[Auto-WCBleedGen Challenge Data Sets1](https://zenodo.org/records/10642779)** , **[Auto-WCBleedGen Challenge Data Sets2](https://zenodo.org/records/10156571)** Module.
 
 The dataset for the Auto-WCEBleedGen-Challenge consists of Training Dataset, Test Dataset 1 and Test Dataset 2.
 
