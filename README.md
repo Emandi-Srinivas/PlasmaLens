@@ -2,7 +2,7 @@
 
 **Plasma Lens** is a **Deep Learning Model** that detects and highlights the instances of bleeding in the Gastrointestinal Tract.
                  
-The model has been trained over 1500+ Bleeding & Non - Bleeding photos, with over various categories like Fresh Blood, Hematin Blood etc from Kvasir & Gastrolab Datasets.
+The model has been trained with over 1500+ Bleeding & Non - Bleeding photos, with over various categories like Fresh Blood, Hematin Blood, etc from Kvasir & Gastrolab Datasets.
 
 **Accuracy :** **`85.67%(8618823/10060800)`**
 
@@ -11,17 +11,17 @@ The model has been trained over 1500+ Bleeding & Non - Bleeding photos, with ove
 **Dataset :** **`Auto-WCBleedGen Challenge Data Sets`**
 
 ## OBJECTIVE-
-The objective of Auto-WCEBleedGen-Challenge is to provide opportunity for the development, testing and evaluation of Artificial Intelligence (AI) models to detect and classify the Bleeding and Non-Bleeding frames extracted from Wireless Capsule Endoscopy (WCE) videos and further detect the bleeding region in that frame.
+The objective of Auto-WCEBleedGen-Challenge is to provide the opportunity for the development, testing, and evaluation of Artificial Intelligence (AI) models to detect and classify the Bleeding and Non-Bleeding frames extracted from Wireless Capsule Endoscopy (WCE) videos and further detect the bleeding region in that frame.
 
 ## Okay Cool, How did we build it?
 
 #### Imported dataset from **[Auto-WCBleedGen Challenge Data Sets1](https://zenodo.org/records/10642779)** , **[Auto-WCBleedGen Challenge Data Sets2](https://zenodo.org/records/10156571)** Module.
 
-The dataset for the Auto-WCEBleedGen-Challenge consists of Training Dataset, Test Dataset 1 and Test Dataset 2.
+The dataset for the Auto-WCEBleedGen-Challenge consists of the Training Dataset, Test Dataset 1, and Test Dataset 2.
 
-Training Dataset: It consists of Annotations and Images for both Bleeding and Non-Bleeding frames along with Bounding boxes for the Bleeding frames. The Training Data is divided in 80:20 as training and validation dataset.
+Training Dataset: It consists of Annotations and Images for both Bleeding and Non-Bleeding frames along with Bounding boxes for the Bleeding frames. The Training Data is divided in 80:20 as the training and validation dataset.
 
-Testing Dataset: Test Dataset 1 contains 49 frames collected randomly from seven different patient's data. Test Dataset 2 contains 515 frames collected from twenty-three different patient's data.
+Testing Dataset: Test Dataset 1 contains 49 frames collected randomly from seven different patient data. Test Dataset 2 contains 515 frames collected from twenty-three different patient data.
 
 #### Mixed precision is the use of both 16-bit and 32-bit floating-point types in a model during training to make it **run faster** and use **less memory**.
 
@@ -46,13 +46,21 @@ Training Process:
   - Training is performed on the extracted features using a supervised learning approach.
   - Backpropagation and gradient descent are used to optimize the model parameters and minimize the classification loss
 
+##Results - 
+![results.png](detect/train/results.png)
+![val_batch0_pred.png](detect/train/val_batch0_pred.png)
+![val_batch1_pred.png](detect/train/val_batch1_pred.png)
+![val_batch2_pred.png](detect/train/val_batch2_pred.png)
+
+
 ## Breaking down the repo
 
 At first glance, the files in the repo may look intimidating and overwhelming. To avoid that, here is a quick guide :
 
 * `README.md`: Functioning and details of the whole project.
 * `PlasmaLens.ipynb`: Google Colab Notebook used to train the model.
-* `segmentation.ipynb`: Google Colab Notebook used for Semantic Segmentation 
+* `segmentation.ipynb`: Google Colab Notebook used for Semantic Segmentation.
+* `detect/train`: results of YOLO(“You Only Look Once”)
 
 ## Created by - 
 
