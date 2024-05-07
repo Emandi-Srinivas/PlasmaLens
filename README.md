@@ -48,9 +48,9 @@ Training Process:
 
 ##Results - 
 ![results.png](detect/train/results.png)
-![val_batch0_pred.png](detect/train/val_batch0_pred.png)
-![val_batch1_pred.png](detect/train/val_batch1_pred.png)
-![val_batch2_pred.png](detect/train/val_batch2_pred.png)
+![val_batch0_pred.jpg](detect/train/val_batch0_pred.jpg)
+![val_batch1_pred.jpg](detect/train/val_batch1_pred.jpg)
+![val_batch2_pred.jpg](detect/train/val_batch2_pred.jpg)
 
 
 ## Breaking down the repo
