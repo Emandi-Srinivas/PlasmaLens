@@ -46,7 +46,7 @@ Training Process:
   - Training is performed on the extracted features using a supervised learning approach.
   - Backpropagation and gradient descent are used to optimize the model parameters and minimize the classification loss
 
-##Results - 
+## Results - 
 ![results.png](detect/train/results.png)
 ![val_batch0_pred.jpg](detect/train/val_batch0_pred.jpg)
 ![val_batch1_pred.jpg](detect/train/val_batch1_pred.jpg)
