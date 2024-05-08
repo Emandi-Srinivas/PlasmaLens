@@ -47,11 +47,15 @@ Training Process:
   - Backpropagation and gradient descent are used to optimize the model parameters and minimize the classification loss
 
 ## Results
-![results.png](detect/train/results.png)
-![val_batch0_pred.jpg](detect/train/val_batch0_pred.jpg)
-![val_batch1_pred.jpg](detect/train/val_batch1_pred.jpg)
-![val_batch2_pred.jpg](detect/train/val_batch2_pred.jpg)
+![results.png](Yolo_object_detection_result/train/results.png)
+![val_batch0_pred.jpg](Yolo_object_detection_result/train/val_batch0_pred.jpg)
+![val_batch1_pred.jpg](Yolo_object_detection_result/train/val_batch1_pred.jpg)
+![val_batch2_pred.jpg](Yolo_object_detection_result/train/val_batch2_pred.jpg)
 
+#### Original mask and Predicted mask (Batch size - 16)
+
+[savedimage.png](Unet for Sementic Segmentation of blood images/saved_images/0.png)
+[savedimage.png](Unet for Sementic Segmentation of blood images/saved_images/pred_0.png)
 
 ## Breaking down the repo
 
