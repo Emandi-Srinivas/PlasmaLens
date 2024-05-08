@@ -60,7 +60,8 @@ At first glance, the files in the repo may look intimidating and overwhelming. T
 * `README.md`: Functioning and details of the whole project.
 * `PlasmaLens.ipynb`: Google Colab Notebook used to train the model.
 * `segmentation.ipynb`: Google Colab Notebook used for Semantic Segmentation.
-* `detect/train`: results of YOLO(“You Only Look Once”)
+* `Yolo_object_detection_result/train`: results of YOLO(“You Only Look Once”)
+* `Unet for Semantic Segmentation of blood images`: results of Semantic Segmentation
 
 ## Created by - 
 
