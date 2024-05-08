@@ -52,10 +52,6 @@ Training Process:
 ![val_batch1_pred.jpg](Yolo_object_detection_result/train/val_batch1_pred.jpg)
 ![val_batch2_pred.jpg](Yolo_object_detection_result/train/val_batch2_pred.jpg)
 
-#### Original mask and Predicted mask (Batch size - 16)
-
-[savedimage.png](Unet_for_Sementic_Segmentation_of_blood_images/saved_images/0.png)
-[savedimage.png](Unet for Sementic Segmentation of blood images/saved_images/pred_0.png)
 
 ## Breaking down the repo
 
