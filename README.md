@@ -54,7 +54,7 @@ Training Process:
 
 #### Original mask and Predicted mask (Batch size - 16)
 
-[savedimage.png](Unet for Sementic Segmentation of blood images/saved_images/0.png)
+[savedimage.png](Unet_for_Sementic_Segmentation_of_blood_images/saved_images/0.png)
 [savedimage.png](Unet for Sementic Segmentation of blood images/saved_images/pred_0.png)
 
 ## Breaking down the repo
